@@ -23,7 +23,16 @@ with col1:
 
 with col2:
   st.subheader("Ezic")
-  modo = st.radio("Escapar del pais")
+  modo = st.radio("Escapar del pais", ('tren', 'avion', 'pies'))
+  if modo == 'tren':
+    st.write('Llegaras rápido a tu destino')
+  if modo == 'avion':
+    st.write('Llegaras mucho más rápido pero sera caro')
+  if modo == 'pies':
+    st.write('lo lograras...')
+    
+  
+  
   
   
                
