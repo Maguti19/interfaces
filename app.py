@@ -33,7 +33,7 @@ with col2:
     
 st.subheader("visado de pasaporte")
 if st.button('aprobado'):
-  st.write('Bienvenido a Arstotzka')
+    st.write('Bienvenido a Arstotzka')
 else:
   st.write('Denegado')
   
