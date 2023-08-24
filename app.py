@@ -31,7 +31,11 @@ with col2:
   if modo == 'pies':
     st.write('lo lograras...')
     
-  
+st.subheader("visado de pasaporte")
+if st.button('aprobado'):
+  st.write('Bienvenido a Arstotzka')
+else:
+  st.write('Denegado')
   
   
   
