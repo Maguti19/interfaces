@@ -10,6 +10,23 @@ st.image(image, caption="Logo")
 texto = st.text_input('Escribe algo', 'Este es mi texto')
 st.write('El texto escrito es', texto)
 
+st.subheader("Ahora usemos dos columnas")
+
+col1, col2 = st.columns(2)
+
+with col1:
+  st.subheader("Arstotzka")
+  st.write("Seguir en el pais")
+  resp = st.checkbox('Estoy de acuerdo')
+  if resp:
+    st.write('correcto')
+
+with col2:
+  st.subheader("Ezic")
+  modo = st.radio("Escapar del pais")
+  
+  
+               
 
                       
 
