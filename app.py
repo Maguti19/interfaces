@@ -52,6 +52,12 @@ elif in_mod == "Haptico":
 st.write("La acción es:" , set_mod)
 
 
+with st.sidebar:
+  st.subheader("Configura la modalidad")
+  mod_radio = st.radio(
+    "Escoge la modalidad a usar",
+    ("Francotirador", "Bomba", "Tranquilizante")
+  )
                       
 
 
