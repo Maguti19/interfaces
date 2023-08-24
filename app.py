@@ -7,5 +7,10 @@ st.write("Puedes elegir en que bando jugar")
 image = Image.open('pp.jpg')
 st.image(image, caption="Logo")
 
+texto = st.text_input('Escribe algo', 'Este es mi texto)
+st.write('El texto escrito es', texto)
+
+
+                      
 
 
