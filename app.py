@@ -37,9 +37,20 @@ if st.button('aprobado'):
 else:
   st.write('Denegado')
   
-  
-  
-               
+
+st.subheader("selectbox")
+in_mod = st.selectbox(
+  "selecciona la modalidad",
+  ("Audio", "Visual", "Haptico"),
+)
+if in_mod == "Audio":
+  set_mod = "BOOOOOOOM"
+elif in_mod == "Visual":
+  set_mod = "Denegado"
+elif in_mod == "Haptico":
+  set_mod = "Bomba"
+st.write("La acción es:" , set_mod)
+
 
                       
 
